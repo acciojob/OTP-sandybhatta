@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	height:300px;
+	border:1px solid black;
+	border-radius:5px;
+	margin:auto;
+}
+#verification_heading{
+	text-align:center;
+	font-weight:400;
+	font-size:2rem;
+	
+}
+#verification_subtext{
+	text-align:center;
+	font-weight:400;
+	font-size:1rem;
+	
+}
+.code-container{
+	display:flex;
+	justify-content:space-evenly;
+	margin-top:30px;
+	
+}
+.code{
+	width:60px;
+	height:60px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
