@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
-        val.addEventListener("keydown", (e) => {
+        val.addEventListener("keyup", (e) => {
             if (e.key == "Backspace" && ind > 0) {
                 codes[ind - 1].focus();
             }
