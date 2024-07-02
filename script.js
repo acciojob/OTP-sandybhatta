@@ -9,10 +9,10 @@ codes.forEach((val,ind){
 			codes[ind+1].focus();
 		}
 	})
-	val.addEventListener("keyDown",(e)=>{
+	val.addEventListener("keydown",(e)=>{
 		if(e.key=="Backspace"){
 			e.target.value="";
-			if(ind<0){
+			if(ind>0){
 				codes[ind-1].focus();
 			}
 		}
